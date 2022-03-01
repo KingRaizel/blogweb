@@ -6,7 +6,11 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'airbnb',
+<<<<<<< HEAD
     'next',
+=======
+    'next'
+>>>>>>> 19c5bde572701396aa114208dc556d3819d1e15b
   ],
   parserOptions: {
     ecmaFeatures: {
