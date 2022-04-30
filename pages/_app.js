@@ -41,7 +41,9 @@ const App = ({ Component, pageProps }) => {
           `,
         }}
       />
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
   )
 }
